@@ -1,0 +1,34 @@
+{
+  "name": "algebra.structures.min",
+  "version": "0.1.0",
+  "description": "A minimizing structure conforming to the Monoid specification.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reaganthomas/algebra.structures.min.git"
+  },
+  "keywords": [
+    "monoid",
+    "min",
+    "algebra",
+    "functional"
+  ],
+  "author": "Reagan Thomas <reagan@reaganthomas.com> (http://reaganthomas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reaganthomas/algebra.structures.min/issues"
+  },
+  "homepage": "https://github.com/reaganthomas/algebra.structures.min",
+  "dependencies": {
+    "algebra.structures.constructor": "^0.1.0",
+    "deep-equal": "^1.0.1"
+  },
+  "devDependencies": {
+    "algebra.laws": "^0.1.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
+  }
+}
